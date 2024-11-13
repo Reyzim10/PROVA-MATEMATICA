@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-intervalos = [(300, 400), (400, 500), (500, 600), (600, 700), (700, 800),
-              (800, 900), (900, 1000), (1000, 1100), (1100, 1200)]
+intervalos = [(300, 399), (400, 499), (500, 599), (600, 699), (700, 799),
+              (800, 899), (900, 999), (1000, 1099), (1100, 1199)]
 frequencias = [14, 46, 58, 76, 68, 62, 48, 22, 6]
 
 #CONSTRUÇÃO DA TABELA:
