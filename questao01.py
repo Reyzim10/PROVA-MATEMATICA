@@ -17,7 +17,7 @@ df_dados = pd.DataFrame(dados_expandidos, columns=['Área'])
 
 
 media = df_dados['Área'].mean() #CALCULO DA MÉDIA, MODA E MEDIANA:
-moda = df_dados['Área'].mode()[0]  #OBS: Pode haver mais de uma moda; pegamos a primeira.
+moda = df_dados['Área'].mode()[0] 
 mediana = df_dados['Área'].median()
 
 print(f"Média: {media}")
